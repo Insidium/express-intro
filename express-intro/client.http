@@ -1,0 +1,15 @@
+### USED TO TEST THE SERVER
+
+### Test GET students
+GET http://localhost:3009/students
+
+### Test GET random group of students
+GET http://localhost:3009/
+
+### Test POST students
+POST http://localhost:3009/students
+content-type: application/json
+
+{
+  "name": "Oscar"
+}
