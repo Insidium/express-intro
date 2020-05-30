@@ -52,7 +52,7 @@ router.post('/students', logger, (req, res) => {
 // logger middleware used to log something and then move to next part of code
 function logger(req, res, next) {
 	// log req.body in console
-	console.log('Got a new req.body:', req.body);
+	console.log('We got one!', req.body);
 	// move to next part of code if successful
 	next();
 }
